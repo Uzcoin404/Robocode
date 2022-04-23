@@ -37,6 +37,21 @@
         </div>
     </header>
 
+    <modal class="modal header_modal">
+        <div class="modal_content">
+            <h3 class="modal_title">Sinov qanday usulda bo’ladi ?</h3>
+            <ul class="modal_list">
+            <li>Sinov ~5 daqiqa davom etadi va 15 ta savoldan iborat bo’ladi.</li>
+            <li>Savollarga to’g’ri javoblarni belgilang.</li>
+            <li>Test oxirida natijangiz ko’rsatiladi.</li>
+            <li>Natijangiz avtomatik tarzda bizda ko’rinadi.</li>
+            <li>Sizga qaysi kasb mos kelishini bilib oling.</li>
+            </ul>
+            <a href="pages/test.html" class="btn modal_btn">Sinovni boshlash</a>
+        </div>
+        <img src="img/times.png" alt="" class="modal_close">
+    </modal>
+
     <div class="sections">
         <section class="knowledge">
             <div class="container">
@@ -58,19 +73,19 @@
                     <img src="img/processor.png" class="card_img" alt="">
                     <h5 class="card_title">Bolalar uchun robototexnika</h5>
                     <p class="card_text">12-16 yoshli bolalar uchun Arduino UNO mikrokontrolleri va dasturlash asoslarini o’rgatuvchi yosh injenerlar kursi kirish sinovi</p>
-                    <a href="#" class="btn begin_btn">Boshlash</a>
+                    <a href="pages/register.html" class="btn begin_btn">Boshlash</a>
                 </div>
                 <div class="choose_test_card">
                     <img src="img/iMac.png" class="card_img" alt="">
                     <h5 class="card_title">Veb dasturlash Full-Stack</h5>
                     <p class="card_text">16 yoshdan kattalar uchun veb dasturlash kursi yagona kirish imtihon sinov testi</p>
-                    <a href="#" class="btn begin_btn">Boshlash</a>
+                    <a href="pages/register.html" class="btn begin_btn">Boshlash</a>
                 </div>
                 <div class="choose_test_card">
                     <img src="img/Folder.png" class="card_img" alt="">
                     <h5 class="card_title">Yagona kirish sinov testi</h5>
                     <p class="card_text">Ushbu testni topshiring va biz sizga optimal bo’lgan IT yo’nalishini tanlab beramiz</p>
-                    <a href="#" class="btn begin_btn">Boshlash</a>
+                    <a href="pages/register.html" class="btn begin_btn">Boshlash</a>
                 </div>
             </div>
         </section>
@@ -140,6 +155,26 @@
                     <a href="#" class="btn child_result_btn">Kursni tanlash</a>
                 </div>
             </div>
+            <modal class="modal notification notification1">
+                <div class="modal_content">
+                    <div class="courses_list">
+                        <div class="ntc_box enabled">Bolalar uchun dasturlash LEGO</div>
+                        <div class="ntc_box enabled">Robototexnika ARDUINO</div>
+                        <div class="ntc_box disabled">Dasturlash WEB</div>
+                    </div>
+                </div>
+                <img src="img/close_black.png" alt="" class="modal_close">
+            </modal>
+            <modal class="modal notification notification2">
+                <div class="modal_content">
+                    <div class="courses_list">
+                        <div><a href="pages/test-results.html" class="ntc_var">Group B</a></div>
+                        <div><a href="pages/test-results.html" class="ntc_var">Group A</a></div>
+                        <div><a href="pages/test-results.html" class="ntc_var">Group C</a></div>
+                    </div>
+                </div>
+                <img src="img/close_black.png" alt="" class="modal_close">
+            </modal>
         </section>
 
         <section class="contact">
@@ -165,6 +200,13 @@
                 </div>
                 <img src="img/CONTACT_IMAGE.png" alt="" class="contact_img">
             </div>
+            <modal class="modal notification notification3">
+                <div class="modal_content">
+                    <h3 class="notification_title">Qabul qilindi!</h3>
+                    <p class="notification_text">Tez orada siz bilan ko’rsatilgan raqam orqali bog’lanishadi. <br> Agar uzrli sabablarga ko’ra siz bilan bog’lanishmasa <a href="#">mana bu</a> manzilga telegram orqali yozing.</p>
+                </div>
+                <img src="img/close_black.png" alt="" class="modal_close">
+            </modal>
         </section>
     </div>
 
@@ -188,6 +230,8 @@
     <div class="scroll_up">
         <a href="#home" class="scroll_up_btn"><img src="img/scroll_up.png" alt=""></a>
     </div>
+
+    <script src="js/script.js"></script>
 
 </body>
 </html>
