@@ -243,10 +243,10 @@
         width: 350px;
     }
     .modal{
-        padding: 30px 25px;
+        padding: 20px 25px;
         min-width: auto;
         width: 100vw;
-        height: 90vh;
+        height: fit-content;
         display: flex;
         align-items: center;
         overflow-y: auto;
@@ -434,9 +434,6 @@
     .complete_subtitle, .results_title{
         font-size: 26px;
         line-height: 42px;
-    }
-    .complete_modal .modal_content {
-        padding-top: 150px;
     }
     .modal_title {
         line-height: 36px;
