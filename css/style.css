@@ -572,3 +572,6 @@ footer{
     line-height: 27px;
     padding-left: 10px;
 }
+.phone_logo{
+    display: none;
+}
