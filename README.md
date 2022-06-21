@@ -8,6 +8,9 @@
     <img src="https://img.shields.io/github/repo-size/uzcoin404/Robocode?style=flat" />
     <img src="https://img.shields.io/github/downloads/uzcoin404/Robocode/total" />
     <img src="https://img.shields.io/github/languages/count/uzcoin404/Robocode?style=flat" />
+    <img src="https://img.shields.io/badge/-HTML-orange?style=flat">
+    <img src="https://img.shields.io/badge/-CSS-blue?style=flat">
+    <img src="https://img.shields.io/badge/-JavaScript-yellow?style=flat">
     <img src="https://img.shields.io/github/issues/uzcoin404/Robocode?style=flat" />
     <img src="https://img.shields.io/github/issues-pr/uzcoin404/Robocode?style=flat" />
     <img src="https://img.shields.io/github/commit-activity/w/uzcoin404/Robocode?style=flat" />
